@@ -10,7 +10,7 @@ import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.*;
 import android.widget.AbsListView.OnScrollListener;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 import com.lbins.FruitsUser.adapter.FruitShowListViewAdapter;
 
 import java.util.Date;

@@ -8,7 +8,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 
 public class CircleImageView extends ImageView {
 

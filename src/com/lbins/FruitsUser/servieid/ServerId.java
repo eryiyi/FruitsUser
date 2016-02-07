@@ -2,13 +2,14 @@ package com.lbins.FruitsUser.servieid;
 
 public class ServerId {
 	public static String serveradress = "http://115.29.208.113/";
-	public static String logonurl = "home/api/merchantLogin";
+	public static String logonurl = "home/api/deliveryLogin";
 	public static String checkshoppingcart = "home/api/getCart";
 	public static String addshoppingcart = "home/api/insertCart";
 	public static String deleteshoppingcart = "home/api/deleteCart";
 	public static String deleteallshoppingcart = "home/api/deletesoCart";
 	public static String modifyaccount = "home/api/saveUserName";
-	public static String lastproduct = "home/api/merchantGoodsList";
+	public static String lastproduct = "home/api/deliveryList";
+	public static String SCAN_URL = "home/api/deliveryScan";
 	public static String popularity = "home/api/sentimentProduct";
 	public static String salesproduct = "home/api/salesProduct";
 	public static String priceproduct = "home/api/priceProduct";

@@ -3,7 +3,7 @@ package com.lbins.FruitsUser.db;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Environment;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 
 import java.io.*;
 

@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.*;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 
 /**
  * 刷新控制view
@@ -229,7 +229,6 @@ public class RefreshableView extends LinearLayout {
 
 	/**
 	 * 刷新时间
-	 * @param refreshTime2
 	 */
 	private void setRefreshTime(Long time) {
 		// TODO Auto-generated method stub

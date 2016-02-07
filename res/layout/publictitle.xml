@@ -11,7 +11,7 @@
         android:background="@color/redstandard"
         android:orientation="horizontal" >
 
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/magnifer"
             android:layout_width="0dip"
             android:layout_height="match_parent"
@@ -25,7 +25,8 @@
                 <!--android:padding="8dp"-->
                 <!--android:src="@drawable/magnifier" />-->
             <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:id="@+id/select_city"
@@ -37,7 +38,8 @@
                     android:contentDescription="@color/transparent"
                     android:padding="2dp"
                      />
-        </LinearLayout>
+
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/title"
@@ -92,6 +94,16 @@
                 android:padding="8dp"
                 android:src="@drawable/shoppingcart" />
         </RelativeLayout>
+        <TextView android:layout_width="wrap_content"
+                  android:text="扫一扫"
+                  android:padding="8dp"
+                  android:id="@+id/saoyisao"
+                  android:layout_height="match_parent"
+                  android:textColor="@color/white"
+                  android:gravity="center"
+                  android:layout_alignParentRight="true"
+                  />
+
     </LinearLayout>
 
 </LinearLayout>

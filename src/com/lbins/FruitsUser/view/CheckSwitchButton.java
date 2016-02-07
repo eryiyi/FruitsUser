@@ -8,7 +8,7 @@ import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 import android.view.ViewParent;
 import android.widget.CheckBox;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 import com.lbins.FruitsUser.anim.FrameAnimationController;
 
 /**

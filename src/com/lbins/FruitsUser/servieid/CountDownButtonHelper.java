@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.CountDownTimer;
 import android.util.Log;
 import android.widget.Button;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 
 /**
  * 倒计时Button帮助类

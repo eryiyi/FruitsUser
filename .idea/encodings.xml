@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/libs/android-support-v13.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libs/httpcore-4.3.2.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libs/httpmime-4.3.5.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libs/universal-image-loader-1.9.2.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libs/volley.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/zxing.jar" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/drawable-hdpi/goods_add.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/drawable-hdpi/goods_jian.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/activity_capture.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/layout/activity_title.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/layout/item_main_viewpage_xml.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/layout/welcome.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/raw/beep.ogg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/raw/realm_properties" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/values/attrs.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/SecondApplication.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/adapter/AnimateFirstDisplayListener.java" charset="UTF-8" />
@@ -20,6 +25,25 @@
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/bean/BaseFragment.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/bean/MyBaseFragment.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/data/AdSlide.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/CaptureActivityHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/DecodeFormatManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/DecodeHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/DecodeThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/FinishListener.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/InactivityTimer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/Intents.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera/AutoFocusCallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera/CameraConfigurationManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera/CameraManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera/FlashlightManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera/PlanarYUVLuminanceSource.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/camera/PreviewCallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/view" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/view/ViewfinderResultPointCallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/decoding/view/ViewfinderView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/fragment/MainPageFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/ui/MipcaActivityCapture.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/ui/WelcomeActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/upload/CommonUtil.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/upload/MultiPartRequest.java" charset="UTF-8" />
@@ -30,5 +54,6 @@
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/util/StringUtil.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/view/CircleImageView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/view/ReboundScrollView.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

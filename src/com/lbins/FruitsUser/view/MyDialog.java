@@ -7,7 +7,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 
 public class MyDialog extends Dialog implements View.OnClickListener{
 	ImageView icon;

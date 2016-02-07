@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.*;
-import com.lbins.FruitsBusiness.R;
+import com.lbins.FruitsUser.R;
 
 
 public class PullToRefreshView extends LinearLayout {
