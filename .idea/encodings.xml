@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/libs/android-support-v13.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/httpcore-4.3.2.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/httpmime-4.3.5.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/universal-image-loader-1.9.2.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/volley.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/goods_add.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/goods_jian.png" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/item_main_viewpage_xml.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/welcome.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/values/attrs.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/SecondApplication.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/adapter/AnimateFirstDisplayListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/adapter/OnClickContentItemListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/adapter/ViewPagerAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/bean/ActivityTack.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/bean/BaseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/bean/BaseFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/bean/MyBaseFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/data/AdSlide.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/ui/WelcomeActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/upload/CommonUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/upload/MultiPartRequest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/upload/MultiPartStack.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/upload/MultiPartStringRequest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/util/CompressPhotoUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/util/RelativeDateFormat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/util/StringUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/view/CircleImageView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/lbins/FruitsUser/view/ReboundScrollView.java" charset="UTF-8" />
+  </component>
+</project>

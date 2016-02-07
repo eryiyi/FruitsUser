@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/redstandard"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/magnifer"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:contentDescription="@color/transparent"-->
+                <!--android:padding="8dp"-->
+                <!--android:src="@drawable/magnifier" />-->
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/select_city"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:text="城市"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:contentDescription="@color/transparent"
+                    android:padding="2dp"
+                     />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="@string/sellfruit"
+            android:textColor="@color/common_white"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:id="@+id/shoppingcart"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <FrameLayout
+                android:id="@+id/frameimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:visibility="gone"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="3dp" >
+
+                <ImageView
+                    android:id="@+id/numberimage"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/cart_backg"
+                    android:layout_gravity="center" />
+                
+                <TextView 
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/numberone"
+                    android:textColor="@color/red"
+                    android:layout_gravity="center"
+                    android:textSize="12sp" />
+            </FrameLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:contentDescription="@color/transparent"
+                android:padding="8dp"
+                android:src="@drawable/shoppingcart" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
